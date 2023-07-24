@@ -7,7 +7,7 @@ const email = document.getElementById('email');
     e.preventDefault();
     try {
       if (!email.value) {
-        throw new Error('Please enter your Number');
+        throw new Error('Please enter your Email');
       }
 
       button.innerHTML = 'Sending...';
